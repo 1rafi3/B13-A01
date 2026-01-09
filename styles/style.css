@@ -9,6 +9,14 @@
     font-optical-sizing: auto;
 }
 
+.hover {
+    cursor: pointer;
+}
+
+button.hover:hover {
+    background-color: palevioletred;
+}
+
 /* main style */
 .btn{
     background-color: #469165;
@@ -97,25 +105,51 @@
     gap: 16px;
     justify-content: center;
 }
+.banner-btn1 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    /* justify-content: space-around; */
+}
 .banner-content .banner-btn1{
     background-color: #469165;
-    width: 251px;
+    width: 269px;
+    height: 52px;
     padding: 16px;
-    text-align: center;
     border-radius: 5px;
     border: none;
     font-size: 16px;
     color: #FFFFFF;
 }
+.banner-content .banner-btn1 p{
+    margin-left: 16px;
+}
+.banner-btn2 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    /* justify-content: space-around; */
+}
 .banner-content .banner-btn2{
     background-color: transparent;
-    width: 198px;
+    /* width: 198px; */
+    height: 52px;
     padding: 16px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid #FFFFFF;
     font-size: 16px;
     color: #FFFFFF;
+}
+.banner-content .banner-btn2 p{
+    margin-right: 16px ;
+}
+.banner-content .banner-btn2 .vault-icon{
+    width: 20px;
+    height: 20px;
+    margin-left:16px;
 }
 
 /* Notes */
@@ -214,6 +248,13 @@
     font-size: 16px;
     color: #001931;
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+#sb .sb-info .info-item img{
+    height: 20px;
+    width: 20px;
 }
 
 /* content access */
@@ -248,12 +289,16 @@
     line-height: 24px;
     margin-bottom: 24px;
 }
-#access .content-btn{
-    margin: 0px 543px 16px;
+#access .content-btn ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    /* justify-content: space-around; */
 }
-#access .content-button{
+#access .content-btn{
     background-color: #469165;
-    width: 194px;
+    width: 215px;
     padding: 16px;
     text-align: center;
     border-radius: 5px;
@@ -261,7 +306,73 @@
     font-size: 16px;
     color: #FFFFFF;
 }
+#access .content-btn p{
+    margin-left:16px;
+}
+#access .content-btn img{
+    margin-right: 16px ;
+}
+
+#access .content-btn{
+    margin: 0px 543px 16px;
+}
+
 #access .ending-message {
     text-align: center;
     color: #627382;
+}
+
+/* footer section */
+footer{
+    padding: 120px 120px 30px;
+    background-color: #001931;
+}
+footer .footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-info .footer-logo{
+    width: 350px;
+    height: 60px;
+    /* background-color: #F7F6F2; */
+
+}
+footer .footer-info .footer-social{
+    width: 220px;
+    height: 64px;
+    /* background-color: aqua; */
+}
+footer .footer-info .footer-social .social-hader{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+footer .footer-info .footer-social .social-logos ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+footer .footer-info .footer-social .social-logos ul img{
+    height: 11.5px;
+    width: 11.5px;;
+}
+footer .footer-info .footer-social .social-logos .circle{
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+footer .footer-container .footer-copyright p{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 24px;
+}
+footer .footer-container .footer-copyright hr{
+    margin-top: 80px;
+    /* color: #001931; */
 }
