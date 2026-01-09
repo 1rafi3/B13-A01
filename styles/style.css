@@ -180,14 +180,38 @@
 
 #sb{
     padding: 120px;
+    /* background-color: rgb(242, 142, 12); */
 }
 
 #sb .sb-container{
     display: flex;
     gap: 60px;
-    background-color: #30B868;
 }
 #sb .sb-info{
     margin: 101.5px 0px;
-    background-color: aqua;
+    width: 700px;
+    height: 397px;
+    /* background-color: aqua; */
+}
+#sb .sb-info .info-message {
+    color: #469165;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+#sb .sb-info .info-title {
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+#sb .sb-info .info-description {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+#sb .sb-info .info-item p{
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
 }
