@@ -8,6 +8,8 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+
+/* main style */
 .btn{
     background-color: #469165;
     width: 164px;
@@ -20,18 +22,18 @@
     color: #FFFFFF;
 }
 
-/* main style */
-header{
+/* navigation bar */
+#navigation {
     background-color: #FFFFFF;
 }
-header nav{
+#navigation {
     display: flex;
     width: 100%;
     max-width: 1600px;
     justify-content: space-around;
 
 }
-header nav .logo{
+#navigation .logo{
     max-width: 139px;
     margin: 16px 0px;
 }
@@ -46,4 +48,72 @@ header nav .logo{
     text-decoration: none;
     font-size: 16px;
     color: #000000;
+}
+
+
+/* banner */
+
+#banner {
+    /* background-image: url(../assets/hero-bg.png); */
+    height: 674px;
+    width: 100%;
+    padding: 115.5px 120px 179.5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/hero-bg.png);
+}
+
+#banner .banner-content {
+    /* background-color: aqua; */
+    width: 1360px;
+    height: 379px;
+}
+#banner .banner-content .banner-header{
+    text-align: center;
+}
+.banner-content .banner-header h1{
+    font-size: 72px;
+    width: 770px;
+    height: 168px;
+    padding: 51px 295px 16px ;
+}
+.banner-content .banner-header h1 .green{
+    color: #30B868;
+}
+.banner-content .banner-header h1 .white{
+    color: #FFFFFF;
+}
+.banner-content .banner-header p{
+    font-size: 18px;
+    text-align: center;
+    width: 1360px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.banner-content .banner-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.banner-content .banner-btn1{
+    background-color: #469165;
+    width: 251px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.banner-content .banner-btn2{
+    background-color: transparent;
+    width: 198px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
 }
